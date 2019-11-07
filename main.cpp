@@ -1,6 +1,8 @@
-#include <iostream>
-
+#include "subasta.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    subasta *subasta1;
+    subasta1 = new subasta("bid_example.txt");
+    subasta1->leerDatos();
+    cout<<10;
     return 0;
 }
