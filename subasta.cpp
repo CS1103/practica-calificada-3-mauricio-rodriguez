@@ -36,8 +36,7 @@ void subasta::generarArchivo() {
         if (it->first==it->second.first){
             archivoR<<it->first<<" "<<getMayor(it->first)<<" "<<getPromedio(it->first)<<getMenor(it->first)<<endl;
             a= it->first;
-            if ()
-        }
+                    }
     }
 }
 
