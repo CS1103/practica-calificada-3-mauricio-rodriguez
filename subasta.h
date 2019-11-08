@@ -18,9 +18,9 @@ public:
     void leerDatos();
     subasta(const string &nombrearchivo);
     void generarArchivo();
-    int getMayor();
-    float getPromedio();
-    int getMenor();
+    int getMayor(const string &value);
+    float getPromedio(const string &value);
+    int getMenor(const string &value);
     void descalificar();
 };
 
